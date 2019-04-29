@@ -16,7 +16,7 @@
 			<div class="container">
 				<div class="top_header">
 					<div class="top_header_left">
-						<img class="mb_hidden" src="./img/Menu.png" alt="">
+						<img class="mb_hidden menu_open" src="./img/Menu.png" alt="">
 						<img class="mb_hidden" src="./img/logo-pesochno.png" alt="">
 						<p class="franch mb_hidden ds_hidden">Франшиза детской <br/>выездной песочницы</p>
 						<img class="menu menu_open ds_hidden tb_hidden" src="./img/Menu.png" alt="">
@@ -136,7 +136,7 @@
 					<div class="contant">
 						<div class="show_tb_ds_1000">
 							<h2>Получить подробный <br/> бизнес-план</h2>
-							<p>Оставьте заявку на франшизу и мы пришлем вам<br class="ds_hidden"/>подробный бизнес-план c <br class="tb_hidden" /> расчетом прибыли и <br class="ds_hidden"/>презентацию франшизы с ценами</p>
+							<p>Оставьте заявку на франшизу и мы пришлем вам<br class="ds_hidden"/> подробный бизнес-план c <br class="tb_hidden" /> расчетом прибыли и <br class="ds_hidden"/>презентацию франшизы с ценами</p>
 							<form>
 								<input type="text" placeholder="Ваш телефон">
 								<input type="text" placeholder="Номер телефона">
@@ -152,11 +152,11 @@
 							</div>
 							<div class="right">
 								<h2>Получить подробный <br/> бизнес-план</h2>
-								<p>Оставьте заявку на франшизу и мы пришлем вам<br class="ds_hidden"/>подробный бизнес-план c <br class="tb_hidden" /> расчетом прибыли и <br class="ds_hidden"/>презентацию франшизы с ценами</p>
-								<form>
-									<input type="text" placeholder="Ваш телефон">
-									<input type="text" placeholder="Номер телефона">
-									<input type="text" placeholder="E-mail">
+								<p>Оставьте заявку на франшизу и мы пришлем вам<br class="ds_hidden"/> подробный бизнес-план c <br class="tb_hidden" /> расчетом прибыли и <br class="ds_hidden"/>презентацию франшизы с ценами</p>
+								<form action="get_plan.php" id="get_plan">
+									<input type="text" placeholder="Ваш телефон" required>
+									<input type="text" placeholder="Номер телефона" required>
+									<input type="text" placeholder="E-mail" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
 									<button type="submit">Отправить заявку</button>
 								</form>
 							</div>
