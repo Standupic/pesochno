@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-rl</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-779.000000, -1407.000000)">
+            <g id="Chto-takoe" transform="translate(86.000000, 986.000000)">
+                <g id="chtotakoe-1" transform="translate(0.000000, 200.000000)">
+                    <g id="Group-2" transform="translate(693.000000, 0.000000)">
+                        <g id="arrow-rl" transform="translate(0.000000, 221.000000)">
+                            <circle id="Oval-4" fill="#FFCB05" cx="22.5" cy="22.5" r="22.5"></circle>
+                            <polygon id="Triangle-2" fill="#000000" transform="translate(31.500000, 23.000000) rotate(90.000000) translate(-31.500000, -23.000000) " points="31.5 20 36 26 27 26"></polygon>
+                            <polygon id="Triangle-2" fill="#000000" transform="translate(13.500000, 23.000000) rotate(-90.000000) translate(-13.500000, -23.000000) " points="13.5 20 18 26 9 26"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

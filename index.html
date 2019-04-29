@@ -309,7 +309,7 @@
 		</section>
 		<section>
 			<div class="container">
-				<button style="margin-bottom: 80px">Отправить заявку</button>
+				<button style="margin:40px auto">Отправить заявку</button>
 			</div>
 		</section>
 		<section class="price">
@@ -444,9 +444,36 @@
 				</div>
 			</div>
 		</div>
+		<div class="wrap_pop_up">
+			<div class="screen1">
+				<form id="form">
+					<div class="pop_up">
+						<div>
+							<img src="./img/close.png" alt="">
+						</div>
+						<h5>Укажите контактные данные и мы <br/> перезвоним вам в ближайшее время</h5>
+						<input type="text" name="name" placeholder="Ваше имя" required>
+						<div class="error"></div>
+						<input type="text" name="phone" id="pop_up" placeholder="Номер телефона" required>
+						<div class="error"></div>
+						<button type="submit">Заказать звонок</button>
+					</div>
+				</form>
+			</div>
+			<div class="screen2">
+				<div class="pop_up">
+					<div>
+						<img src="./img/close.png" alt="">
+					</div>
+					<h5>Спасибо за заявку! Мы свяжемся с вами в ближайшее время.</h5>
+					<button>Закрыть</button>
+				</div>
+			</div>
+		</div>
 	</body>
 	<script src="libs/jquery-1.11.2.min.js"></script>
 	<script src="js/owl.carousel.js"></script>
+	<script src="js/mask.js"></script>
 	<script src="js/cocoen.min.js"></script>
 	<script src="js/cocoen-jquery.min.js"></script>
 	<script src="js/common.min.js"></script>
