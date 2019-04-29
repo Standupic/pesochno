@@ -19,7 +19,7 @@
 						<img class="mb_hidden" src="./img/Menu.png" alt="">
 						<img class="mb_hidden" src="./img/logo-pesochno.png" alt="">
 						<p class="franch mb_hidden ds_hidden">Франшиза детской <br/>выездной песочницы</p>
-						<img class="menu ds_hidden tb_hidden" src="./img/Menu.png" alt="">
+						<img class="menu menu_open ds_hidden tb_hidden" src="./img/Menu.png" alt="">
 
 						<div class="ds_hidden tb_hidden top_header_left_mobile">
 							<img src="./img/logo-pesochno.png" alt="">
@@ -28,8 +28,8 @@
 						
 					</div>
 					<div class="top_header_right">
-						<p class="call_me">Перезвоните мне</p>
-						<div><a href="#"><img src="./img/phone.png" alt=""></a></div>
+						<p class="call_me send">Перезвоните мне</p>
+						<div><a href="tel:+74997556584"><img src="./img/phone.png" alt=""></a></div>
 					</div>
 				</div><!--end top_header-->
 				<div class="content_header">
@@ -40,7 +40,7 @@
 						</div>
 						<div class="bottom_left_content_header">
 							<div>
-								<button>Отправить заявку</button>
+								<button class="send">Отправить заявку</button>
 							</div>
 							<div class="video">
 								<img src="./img/Group5.png" alt="">
@@ -126,7 +126,7 @@
 							<p>отработал - заработал, нет больших <br/> ежемесячных платежей по аренде</p>
 						</div>
 					</div>
-					<button>Отправить заявку</button>
+					<button class="send">Отправить заявку</button>
 				</div>
 			</div>
 		</section>
@@ -200,7 +200,7 @@
 						<p>в первые два месяца поддержки и <br/> консультации по запуску бизнеса</p>
 					</div>
 				</div>
-				<button>Отправить заявку</button>
+				<button class="send">Отправить заявку</button>
 			</div>
 		</section>
 		<section class="about">
@@ -214,7 +214,7 @@
 					<div class="right">
 						<h2>О нас</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aliquid aut hic sed, dignissimos totam ullam fugit, quos velit nobis impedit, assumenda eum harum quae porro. Consequuntur odit tempore, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consequuntur iusto hic. Doloribus numquam distinctio odit, fugiat, atque quas repudiandae sit similique dolore impedit facilis officiis animi non ducimus labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias fuga accusamus dolore porro beatae voluptas dicta, consectetur impedit culpa itaque laborum harum exercitationem tempora, sint enim a sed eligendi doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, expedita inventore a molestiae voluptas non iste rem. Quae soluta explicabo hic consequatur, possimus ullam. Consequuntur iure aperiam natus mollitia maiores!</p>
-						<button>Отправить заявку</button>
+						<button class="send">Отправить заявку</button>
 					</div>
 				</div>
 			</div>
@@ -309,7 +309,7 @@
 		</section>
 		<section>
 			<div class="container">
-				<button style="margin:40px auto">Отправить заявку</button>
+				<button style="margin:40px auto" class="send">Отправить заявку</button>
 			</div>
 		</section>
 		<section class="price">
@@ -353,7 +353,7 @@
 						</div>
 					</div>
 				</div>
-				<button>Отправить заявку</button>
+				<button class="send">Отправить заявку</button>
 				<p class="info">* Расчеты составлены по данным управляющей компании. Успешность бизнеса зависит от вас.</p>
 			</div>
 		</section>
@@ -382,7 +382,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem excepturi praesentium, deserunt eos esse tempora repudiandae commodi, quas dolores et soluta ipsa placeat dolorem odio molestias id dolore eveniet odit!</p>
 					</div>
 				</div>
-				<button>Отправить заявку</button>
+				<button class="send">Отправить заявку</button>
 				<p>Не нашли ответ на свой вопрос? Закижите обратный звонок и мы<br/> с радостью ответим на все вопросы.</p>
 			</div>	
 		</section>
@@ -405,7 +405,7 @@
 								<input type="text" placeholder="Ваш телефон">
 								<input type="text" placeholder="Номер телефона">
 								<input type="text" placeholder="E-mail">
-								<button type="submit">Отправить заявку</button>
+								<button class="send" type="submit">Отправить заявку</button>
 							</form>
 						</div>
 						<div class="show_mb">
@@ -421,7 +421,7 @@
 									<input type="text" placeholder="Ваш телефон">
 									<input type="text" placeholder="Номер телефона">
 									<input type="text" placeholder="E-mail">
-									<button type="submit">Отправить заявку</button>
+									<button  class="send" type="submit">Отправить заявку</button>
 								</form>
 							</div>
 						</div>
@@ -438,7 +438,7 @@
 						<p>Франшиза детской <br/>выездной песочницы</p>
 					</div>
 					<div class="right">
-						<p>Перезвоните мне</p>
+						<p class="send">Перезвоните мне</p>
 						<div><a href="#"><img src="./img/phone.png" alt=""></a></div>
 					</div>
 				</div>
@@ -449,26 +449,51 @@
 				<form id="form">
 					<div class="pop_up">
 						<div>
-							<img src="./img/close.png" alt="">
+							<img src="./img/close.png" alt="" class="pop_up_close">
 						</div>
 						<h5>Укажите контактные данные и мы <br/> перезвоним вам в ближайшее время</h5>
 						<input type="text" name="name" placeholder="Ваше имя" required>
 						<div class="error"></div>
 						<input type="text" name="phone" id="pop_up" placeholder="Номер телефона" required>
 						<div class="error"></div>
-						<button type="submit">Заказать звонок</button>
+						<button type="submit" class="send">Заказать звонок</button>
 					</div>
 				</form>
 			</div>
 			<div class="screen2">
 				<div class="pop_up">
 					<div>
-						<img src="./img/close.png" alt="">
+						<img src="./img/close.png" class="pop_up_close" alt="">
 					</div>
 					<h5>Спасибо за заявку! Мы свяжемся с вами в ближайшее время.</h5>
-					<button>Закрыть</button>
+					<button class="pop_up_close">Закрыть</button>
 				</div>
 			</div>
+			<div class="screen3">
+				<div class="pop_up">
+					<div>
+						<img src="./img/close.png" class="pop_up_close" alt="">
+					</div>
+					<h5>К сожалению ваша заявка не отправилась. Возможно это связано с техническими проблемами если очередные попытки будут не удачными, пожалуйста позвоните нам. <a href="tel:+74997556584">+7(495)7556584</a></h5>
+					<button class="pop_up_close">Закрыть</button>
+				</div>
+			</div>	
+		</div>
+		<div class="sidemenu">
+			<img src="./img/close.png" class="close_sidemenu" alt="">
+			<ul>
+				<li><a href="#">Что такое песочно</a></li>
+				<li><a href="#">Преимущества</a></li>
+				<li><a href="#">Получить бизнес-план</a></li>
+				<li><a href="#">Что входит</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Этапы запуска</a></li>
+				<li><a href="#">Расчет прибыли</a></li>
+				<li><a href="#">Ответы на вопросы</a></li>
+				<li><a href="#">Фото</a></li>
+			</ul>
+			<p>Оставьте заявку и мы пришлем вам подробный бизнес-план</p>
+			<button class="send_from_menu">Отправить заявку</button>
 		</div>
 	</body>
 	<script src="libs/jquery-1.11.2.min.js"></script>
