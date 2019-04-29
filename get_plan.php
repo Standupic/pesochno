@@ -1,7 +1,7 @@
 <?
 	if((isset($_POST['name'])&&$_POST['name']!="") &&
 	  (isset($_POST['phone'])&&$_POST['phone']!="") &&
-	  (isset($_POST['email'])&&$_POST['email'] !="")){
+	  (isset($_POST['email'])&&$_POST['email']!="")){
 	  $to = $_POST['email']; //Почта получателя, через запятую можно указать сколько угодно адресов
         $subject = 'Бизнес план франшизы песочно'; //Заголовок сообщения
         $message = "
