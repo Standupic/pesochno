@@ -137,10 +137,10 @@
 						<div class="show_tb_ds_1000">
 							<h2>Получить подробный <br/> бизнес-план</h2>
 							<p>Оставьте заявку на франшизу и мы пришлем вам<br class="ds_hidden"/> подробный бизнес-план c <br class="tb_hidden" /> расчетом прибыли и <br class="ds_hidden"/>презентацию франшизы с ценами</p>
-							<form>
-								<input type="text" placeholder="Ваш телефон">
-								<input type="text" placeholder="Номер телефона">
-								<input type="text" placeholder="E-mail">
+							<form action="get_plan.php" id="get_plan">
+								<input type="text" placeholder="Ваше имя" required>
+								<input type="text" placeholder="Номер телефона" class="phone" required>
+								<input type="text" placeholder="E-mail" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
 								<button type="submit">Отправить заявку</button>
 							</form>
 						</div>
@@ -155,7 +155,7 @@
 								<p>Оставьте заявку на франшизу и мы пришлем вам<br class="ds_hidden"/> подробный бизнес-план c <br class="tb_hidden" /> расчетом прибыли и <br class="ds_hidden"/>презентацию франшизы с ценами</p>
 								<form action="get_plan.php" id="get_plan">
 									<input type="text" placeholder="Ваш телефон" required>
-									<input type="text" placeholder="Номер телефона" required>
+									<input type="text" placeholder="Номер телефона" class="phone" required>
 									<input type="text" placeholder="E-mail" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
 									<button type="submit">Отправить заявку</button>
 								</form>
@@ -454,7 +454,7 @@
 						<h5>Укажите контактные данные и мы <br/> перезвоним вам в ближайшее время</h5>
 						<input type="text" name="name" placeholder="Ваше имя" required>
 						<div class="error"></div>
-						<input type="text" name="phone" id="pop_up" placeholder="Номер телефона" required>
+						<input type="text" name="phone" class="phone" id="pop_up" placeholder="Номер телефона" required>
 						<div class="error"></div>
 						<button type="submit" class="send">Заказать звонок</button>
 					</div>
