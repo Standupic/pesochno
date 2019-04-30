@@ -31,6 +31,6 @@
         $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
         $headers .= "From: Франшиза песочно <cp75225@vh24.timeweb.ru>\r\n"; //Наименование и почта отправителя
         mail($to, $subject, $message, $headers);
-        mail($to2, $subject2, $message2, $headers);
+        // mail($to2, $subject2, $message2, $headers);
 	}
 ?>
