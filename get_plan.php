@@ -3,9 +3,9 @@
 	  (isset($_POST['phone'])&&$_POST['phone']!="") &&
 	  (isset($_POST['email'])&&$_POST['email']!="")){
 	  $to = $_POST['email']; //Почта получателя, через запятую можно указать сколько угодно адресов
-	  $to2 = 'satndupic87@gmail.com,pesochnofranchise@gmail.com';
-        $subject = 'Бизнес план франшизы песочно'; //Заголовок сообщения
-        $subject2 = 'Кто то запросил бизнес план франшизы песочно';
+	  $to2 = "satndupic87@gmail.com,pesochnofranchise@gmail.com";
+        $subject = "Бизнес план франшизы песочно"; //Заголовок сообщения
+        $subject2 = "Кто то запросил бизнес план франшизы песочно";
         $message2 =  "<html>
         				<head>
         					<title>".$subject2."</title>
@@ -18,7 +18,7 @@
         					<p>Телефон: ".$_POST['phone']."</p>
         					<p>Почта: ".$_POST['email']."</p>
         				</body>
-        			</html>"
+        			</html>";
         $message = "
                 <html>
                     <head>
