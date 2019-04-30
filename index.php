@@ -155,10 +155,10 @@
 								<p>Оставьте заявку на франшизу и мы пришлем вам<br class="ds_hidden"/> подробный бизнес-план c <br class="tb_hidden" /> расчетом прибыли и <br class="ds_hidden"/>презентацию франшизы с ценами</p>
 								<form action="get_plan.php" id="get_plan_one">
 									<input type="text" placeholder="Ваше имя" name="name" required>
-									<input type="text" placeholder="Номер телефона" class="phone" name="phone" required>
+									<input type="text" placeholder="Номер телефона" name="phone" class="phone" required>
 									<input type="text" placeholder="E-mail" name="email" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
 									<button type="submit">Отправить заявку</button>
-								</form>
+							</form>
 							</div>
 						</div>
 					</div>
