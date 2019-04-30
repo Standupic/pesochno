@@ -428,9 +428,7 @@
 						</div>
 						<h5>Укажите контактные данные и мы <br/> перезвоним вам в ближайшее время</h5>
 						<input type="text" name="name" placeholder="Ваше имя" required>
-						<div class="error"></div>
 						<input type="text" name="phone" class="phone" id="pop_up" placeholder="Номер телефона" required>
-						<div class="error"></div>
 						<button type="submit" class="send">Заказать звонок</button>
 					</div>
 				</form>
@@ -457,15 +455,15 @@
 		<div class="sidemenu">
 			<img src="./img/close.png" class="close_sidemenu" alt="">
 			<ul>
-				<li><a href="#">Что такое песочно</a></li>
-				<li><a href="#">Преимущества</a></li>
-				<li><a href="#">Получить бизнес-план</a></li>
-				<li><a href="#">Что входит</a></li>
-				<li><a href="#">О нас</a></li>
-				<li><a href="#">Этапы запуска</a></li>
-				<li><a href="#">Расчет прибыли</a></li>
-				<li><a href="#">Ответы на вопросы</a></li>
-				<li><a href="#">Фото</a></li>
+				<li><a href="#" class="go_to" data-go=".what_is_it">Что такое песочно</a></li>
+				<li><a href="#" class="go_to" data-go=".advantages">Преимущества</a></li>
+				<li><a href="#" class="go_to" data-go=".business_plan">Получить бизнес-план</a></li>
+				<li><a href="#" class="go_to" data-go=".what_includes">Что входит</a></li>
+				<li><a href="#" class="go_to" data-go=".about">О нас</a></li>
+				<li><a href="#" class="go_to" data-go=".open">Этапы запуска</a></li>
+				<li><a href="#" class="go_to" data-go=".price">Расчет прибыли</a></li>
+				<li><a href="#" class="go_to" data-go=".faq">Ответы на вопросы</a></li>
+				<li><a href="#" class="go_to" data-go=".foto">Фото</a></li>
 			</ul>
 			<p>Оставьте заявку и мы пришлем вам подробный бизнес-план</p>
 			<button class="send_from_menu">Отправить заявку</button>
