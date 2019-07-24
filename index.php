@@ -35,7 +35,7 @@
 				<div class="content_header">
 					<div class="left_content_header">
 						<div class="top_left_content_header">
-							<h1>Откройте детский творческий проект &laquo;ПеСОЧНО&raquo;<br class="tb_hidden ds_hidden"/> в <br class="mb_hidden" /> своем городе и <br class="tb_hidden ds_hidden"/> получайте доход<br class="mb_hidden"/> от <span>150 000 ₽ в месяц</span></h1>
+							<h1>Откройте детский творческий проект &laquo;ПЕСОЧНО&raquo;<br class="tb_hidden ds_hidden"/> в <br class="mb_hidden" /> своем городе и <br class="tb_hidden ds_hidden"/> получайте доход<br class="mb_hidden"/> от <span>50 000 ₽ в месяц</span></h1>
 							<p>Получите наш успешный опыт и <br class="ds_hidden tb_hidden"/> отлаженные бизнес-процессы</p>
 						</div>
 						<div class="bottom_left_content_header">
@@ -61,8 +61,8 @@
 		<section class="what_is_it">
 			<div class="container">
 				<div class="header_what_is_it">
-					<h2>Что такое  &laquo;ПеСОЧНО&raquo;?</h2>
-					<p>&laquo;ПеСОЧНО&raquo; - это детская творческая интерактивная площадка для раскраски картинок цветным песком по трафаретам.
+					<h2>Что такое  &laquo;ПЕСОЧНО&raquo;?</h2>
+					<p>&laquo;ПЕСОЧНО&raquo; - это детская творческая интерактивная площадка для раскраски картинок цветным песком по трафаретам.
                     <br/> Наши площадки представлены в торговых центрах, детских садах и школах, на городских фестивалях и парках, на частных праздниках.
                 </p>
 				</div>
@@ -151,6 +151,7 @@
 								<form action="get_plan.php" id="get_plan_one">
 									<input type="text" placeholder="Ваше имя" name="name" required>
 									<input type="text" placeholder="Номер телефона" name="phone" class="phone" required>
+									<input type="text" name="city" placeholder="Город" required>
 									<input type="text" placeholder="E-mail" name="email" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
 								<button type="submit">Отправить заявку</button>
 								</form>
@@ -203,7 +204,7 @@
 					<div class="left">
 						<img src="./img/about.png" alt="">
 						<h3>Артем и Ирина Мишневы</h3>
-						<p>Основатели студии &laquo;Песочно&raquo;</p>
+						<p>Основатели студии &laquo;ПЕСОЧНО&raquo;</p>
 					</div>
 					<div class="right">
 						<h2>О нас</h2>
@@ -359,7 +360,7 @@
 							</h4>
 						</div>
 						<div class="right">
-							<p><span>396 000 ₽ - 100 640 ₽ = <em>295 360 ₽&#42; в мес.</em></span></p>
+							<p><span>213 000₽ - 117150₽ - 10 000₽ - 3000₽ - 12780₽ = <em>70070 ₽&#42; в мес.</em></span></p>
 						</div>
 					</div>
 				</div>
@@ -381,16 +382,16 @@
 					</div>
 					<div class="item">
 						<h3>Есть ли у вас конкуренты?</h3>
-						<p>Безусловно, конкуренты у нас есть. Но если брать прямых конкурентов, кто занимается идентичным бизнесом - их немного и не во всех городах они есть. Если брать конкурентов в сфере развлечений для детей - их очень много. Несмотря на это, у нас есть ряд преимуществ, которые позволяют нам расти и развиваться.
+						<p>Безусловно, конкуренты у нас есть. Но если брать прямых конкурентов, кто занимается идентичным бизнесом - их немного и не во всех городах они есть. Несмотря на это, у нас есть ряд преимуществ, которые позволяют нам расти и развиваться.
 И не забывайте, конкуренты делают нас сильнее!</p>
 					</div>
 					<div class="item">
 						<h3>Почему вы сами не открываете филиалы в других городах, а продаете франшизу?</h3>
-						<p>Мы отталкиваемся от наших целей и задач. Наша основная цель - крупная, функциональная сеть из 50 городов к концу 2020 года. Молодые заинтересованые предприниматели, на наш взгляд, справятся с развитием намного эффективнее, чем сотрудник по найму.</p>
+						<p>Мы отталкиваемся от наших целей и задач. Наша основная цель - крупная, функциональная сеть из 50 городов к концу 2020 года. Молодые заинтересованые предприниматели, на наш взгляд, справятся с развитием намного эффективнее, чем сотрудники по найму.</p>
 					</div>
 					<div class="item">
 						<h3>Вы гарантируете, что бизнес прибыльный?</h3>
-						<p>Мы гарантируем, что НАШ бизнес прибыльный, мы начинали в Новосибирске - окупили вложения через 3 месяца. За 3,5 года работы мы ни разу не закрыли год в минус. За 1,5 года работы в Москве мы увеличили выручку в 4 раза!
+						<p>Мы гарантируем, что НАШ бизнес прибыльный, мы начинали в Новосибирске - окупили вложения через 3 месяца. За 4 года работы мы ни разу не закрыли год в минус. За 1 год работы в Москве мы увеличили выручку в 4 раза!
 Все зависит от вас, если будете правильно использовать все инструменты, которые мы вам дадим, у вас все получится, а мы в свою очередь будем вам помогать.</p>
 					</div>
 				</div>
@@ -420,6 +421,7 @@
 									<form action="get_plan.php" id="get_plan_two">
 										<input type="text" placeholder="Ваше имя" name="name" required>
 										<input type="text" placeholder="Номер телефона" name="phone" class="phone" required>
+										<input type="text" name="city" placeholder="Город" required>
 										<input type="text" placeholder="E-mail" name="email" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
 									<button type="submit">Отправить заявку</button>
 									</form>
@@ -434,7 +436,7 @@
 				<div class="wrap_footer">
 					<div class="left">
 						<img src="./img/logo-pesochno-w.png" alt="">
-						<p>Франшиза детской <br/>выездной песочницы</p>
+						<p>Франшиза детского <br/>творческого проекта</p>
 					</div>
 					<div class="right">
 						<p class="send">Перезвоните мне</p>
@@ -453,6 +455,7 @@
 						<h5>Укажите контактные данные и мы <br/> перезвоним вам в ближайшее время</h5>
 						<input type="text" name="name" placeholder="Ваше имя" required>
 						<input type="text" name="phone" class="phone" id="pop_up" placeholder="Номер телефона" required>
+						<input type="text" name="city" placeholder="Город" required>
 						<button type="submit" class="send">Заказать звонок</button>
 					</div>
 				</form>
@@ -480,7 +483,6 @@
 			<img src="./img/close.png" class="close_sidemenu" alt="">
 			<ul>
 				<li><a href="#" class="go_to" data-go=".what_is_it">Что такое песочно</a></li>
-				<li><a href="#" class="go_to" data-go=".advantages">Преимущества</a></li>
 				<li><a href="#" class="go_to" data-go=".business_plan">Получить бизнес-план</a></li>
 				<li><a href="#" class="go_to" data-go=".what_includes">Что входит</a></li>
 				<li><a href="#" class="go_to" data-go=".about">О нас</a></li>

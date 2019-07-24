@@ -1,7 +1,8 @@
 <?
-	if((isset($_POST['name'])&&$_POST['name']!="") &&
+	if((isset($_POST['name'])&&$_POST['name']!="")  &&
 	  (isset($_POST['phone'])&&$_POST['phone']!="") &&
-	  (isset($_POST['email'])&&$_POST['email']!="")){
+	  (isset($_POST['email'])&&$_POST['email']!="") &&
+      (isset($_POST['city'])&&$_POST['city']!="")){
 	  $to = $_POST['email']; //Почта получателя, через запятую можно указать сколько угодно адресов
 	  $to2 = 'satndupic87@gmail.com,pesochnofranchise@gmail.com';
 
@@ -18,6 +19,7 @@
         					<p>Контактные данные:</p>
         					<p>Телефон: <a href='tel:+".$_POST["phone"]."'>".$_POST['phone']."</a></p>
         					<p>Почта: ".$_POST['email']."</p>
+                            <p>Город: ".$_POST['city']."</p>
         				</body>
         			</html>";
         $message = "
