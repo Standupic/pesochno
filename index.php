@@ -146,7 +146,7 @@
 						</div>
 						<div class="right">
 							<h2>Получить более подробную информацию</h2>
-								<p>Оставьте заявку и с вами свяжется менеджер<br class="ds_hidden"/> для предоставлении более <br class="tb_hidden" /> подробдной <br class="ds_hidden"/>информации</p>
+								<p>Оставьте заявку и с вами свяжется менеджер<br class="ds_hidden"/> для предоставлении более <br class="tb_hidden" /> подробдный <br class="ds_hidden"/>информации</p>
 								<form action="get_plan.php" id="get_plan_one">
 									<input type="text" placeholder="Ваше имя" name="name" required>
 									<input type="text" placeholder="Номер телефона" name="phone" class="phone" required>
@@ -417,7 +417,7 @@
 							</div>
 							<div class="right">
 								<h2<h2>Получить более подробную информацию</h2>
-								<p>Оставьте заявку и с вами свяжется менеджер<br class="ds_hidden"/> для предоставлении более <br class="tb_hidden" /> подробдной <br class="ds_hidden"/>информации
+								<p>Оставьте заявку и с вами свяжется менеджер<br class="ds_hidden"/> для предоставлении более <br class="tb_hidden" /> подробдный <br class="ds_hidden"/>информации
 								</p>
 									<form action="get_plan.php" id="get_plan_two">
 										<input type="text" placeholder="Ваше имя" name="name" required>
