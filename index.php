@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
-	<title>Заголовок</title>
+	<title>Франшиза Песочно</title>
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -9,6 +9,21 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/owl.theme.default.css">
 	<link rel="stylesheet" href="css/cocoen.min.css">
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(54887539, "init", {
+	        clickmap:true,
+	        trackLinks:true,
+	        accurateTrackBounce:true,
+	        webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/54887539" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 </head>
 <html>
 	<body>
@@ -18,11 +33,11 @@
 					<div class="top_header_left">
 						<img class="mb_hidden menu_open" src="./img/Menu.png" alt="">
 						<img class="mb_hidden" src="./img/logo-pesochno.png" alt="">
-						<p class="franch mb_hidden ds_hidden">Франшиза детской <br/>выездной песочницы</p>
+						<p class="franch mb_hidden">Франшиза</p>
 						<img class="menu menu_open ds_hidden tb_hidden" src="./img/Menu.png" alt="">
 
 						<div class="ds_hidden tb_hidden top_header_left_mobile">
-							<img src="./img/logo-pesochno.png" alt="">
+							<img src="img/logo-pesochno.png" alt="">
 							<!-- <p>Франшиза детской <br/>выездной песочницы</p> -->
 						</div>
 						
@@ -49,7 +64,8 @@
 						</div>
 					</div>
 					<div class="right_content_header">
-						<img src="./img/Group6.png" class="info tb_hidden mb_hidden" alt="">
+						<!-- <img src="./img/Group6.png" class="info tb_hidden mb_hidden" alt=""> -->
+						<p class="info tb_hidden mb_hidden">Оформите договор <br/> до 31.12.2019?</p>
 						<img src="./img/pesok3.png" class="pesochno" alt="">
 					</div>
 				</div><!--end content_header-->
@@ -70,23 +86,23 @@
 				  <div class="item">
 				  		<div class="wrap_items">
 				  			<div class="left">
-				  					<h3>Уникальное творческое увлечение для <br class="tb_hidden"/>детей</h3>
-				  					<p>Выезд на любой десткий праздник. Организация <br/>увлекательного процесса рисования<br class="tb_desktop tb_mobile"/> картин цветным песком.</p>
+			  					<h3>«ПЕСОЧНО» - это уникальное творческое <br class="tb_hidden"/>увлечение для детей</h3>
+			  					<p>Выезд на любой десткий праздник. Организация <br/>увлекательного процесса рисования<br class="tb_desktop tb_mobile"/> картин цветным песком.</p>
 				  			</div>
 				  			<div class="right">
 				  				<div class="cocoen">
 								    <img src="./img/before.png" alt="">
 								    <img src="./img/after.png" alt="">
 								</div>
-								 <p>Трафарет – это трехслойное изделие, состоящее из картона, клеевого слоя и бумаги, разных форматов (А6, А5, А4, магниты, часы), на котором лазером вырезаны образы популярных детских персонажей, героев мультфильмов, животных и т.д.1</p>
+								 <p>Трафарет – это трехслойное изделие, состоящее из картона, клеевого слоя и бумаги, разных форматов (А6, А5, А4, магниты, часы), на котором лазером вырезаны образы популярных детских персонажей, героев мультфильмов, животных и т.д.</p>
 				  			</div>
 				  		</div>
 				  </div>
 				   <div class="item">
 				  		<div class="wrap_items">
 				  			<div class="left">
-				  					<h3>Уникальное творческое увлечение для <br class="tb_hidden"/>детей</h3>
-				  					<p>Выезд на любой десткий праздник. Организация <br/>увлекательного процесса рисования картин цветным песком.</p>
+				  					<!-- <h3>Уникальное творческое увлечение для <br class="tb_hidden"/>детей</h3> -->
+				  					<p>«ПЕСОЧНО» - это выездная площадка на <br/>любом праздник. Организованное мероприятие по<br/> рисованию картин цветным песком, которое нравится <br/>детям и взрослым!</p>
 				  			</div>
 				  			<div class="right">
                                   <img src="./img/1.png" alt="">
@@ -171,7 +187,7 @@
 					<div class="item">
 						<img src="./img/boxes.png" alt="">
 						<h3>Готовое оборудование</h3>
-						<p> 2 стола, 4 рекламных баннера на столы,<br/> 24 контейнера с крышками, 2 формы для сотрудников.</p>
+						<p>Столы, банеры, контейнеры, <br/> форма для сотрудников (на 2 торговые точки)</p>
 					</div>
 					<div class="item">
 						<img src="./img/instructure.png" alt="">
@@ -181,7 +197,7 @@
 					<div class="item">
 						<img src="./img/brandbook.png" alt="">
 						<h3>Брендбук</h3>
-						<p>логотип, макеты презентации и листовок, <br/>визиток, бейджиков для сотрудников</p>
+						<p>Логотип, макеты презентаций, листовок,<br/> визиток и бейджиков для сотрудников</p>
 					</div>
 					<div class="item">
 						<img src="./img/price.png" alt="">
@@ -208,7 +224,7 @@
 					<div class="right">
 						<h2>О нас</h2>
 					<p>Привет! Меня зовут Артём и это моя супруга Ирина. Мы молодая семья, которая вот уже как 5-й год развивает детское творческое направление с огромной любовью.</p>
-					<p>У нас сложился уже большой опыт ведения этого бизнеса. Начинали мы 4 года назад в замечательном городе Новосибирске. Открыли островок детской творческой песочницы в одном из крупных торговых центров города. Дальше активно проработывали детские сады и школы города, выезжали на мероприятия по разукрашиванию картин с детьми от 3-х лет, в школах от 7-ми лет.</p>
+					<p>У нас сложился уже большой опыт ведения этого бизнеса. Начинали мы 5 года назад в замечательном городе Новосибирске. Открыли островок детской творческой песочницы в одном из крупных торговых центров города. Дальше активно проработывали детские сады и школы города, выезжали на мероприятия по разукрашиванию картин с детьми от 3-х лет, в школах от 7-ми лет.</p>
 					<p>После чего нам стали интересны городские парки, мы заключили с самыми проходимыми парками города договоры и установили стационарные точки. В летнее время гости парка с огромным удовольствием посещают нашу песочницу и получают море эмоций.</p>
 					<p>После этого нашу песочницу стали приглашать на крупные массовые мероприятия (день города, новогодние детские ёлки, закрытые вечеринки, частные мероприятия, корпоративы и тд). Бизнес стал развиваться.<p>
 					<p>На этом мы не остановились! Нами было принято решение переехать в Москву и развивать нашу песочницу в столице. И вот уже как год мы успешно развиваем ее здесь, в Москве. </p>
@@ -284,7 +300,7 @@
 							<div class="item">
 								<div class="left">
 									<h4>Обучение и подготовка</h4>
-									<p>Оплата паушального взноса. Получение на руки всех необходимых инструкций и стартового пакета товара для начала работы.</p>
+									<p>Дистанционное обучение по ведению бизнеса, помощь в организации, поиску персонала, ведению отчётности, подготовка к запуску.</p>
 								</div>
 								<div class="right">
 									<img src="./img/open4.png" alt="">
@@ -295,7 +311,7 @@
 							<div class="item">
 								<div class="left">
 									<h4>Успешный запуск</h4>
-									<p>Оплата паушального взноса. Получение на руки всех необходимых инструкций и стартового пакета товара для начала работы.</p>
+									<p>Закрепление полученных навыков на практике. Первые проекты и продажи.</p>
 								</div>
 								<div class="right">
 									<img src="./img/open5.png" alt="">
@@ -306,11 +322,11 @@
 				</div>
 			</div>
 		</section>
-		<section>
+	<!-- 	<section>
 			<div class="container">
 				<button style="margin:40px auto" class="send">Отправить заявку</button>
 			</div>
-		</section>
+		</section> -->
 		<section class="price">
 			<div class="container">
 				<h2>Стоимость и расчет прибыли</h2>
@@ -416,7 +432,7 @@
 								<img src="./img/get_plan_bg.png" alt=""/>
 							</div>
 							<div class="right">
-								<h2<h2>Получить более подробную информацию</h2>
+								<h2>Получить более подробную информацию</h2>
 								<p>Оставьте заявку и с вами свяжется менеджер<br class="ds_hidden"/> для предоставлении более <br class="tb_hidden" /> подробдный <br class="ds_hidden"/>информации
 								</p>
 									<form action="get_plan.php" id="get_plan_two">
@@ -484,7 +500,7 @@
 			<img src="./img/close.png" class="close_sidemenu" alt="">
 			<ul>
 				<li><a href="#" class="go_to" data-go=".what_is_it">Что такое песочно</a></li>
-				<li><a href="#" class="go_to" data-go=".business_plan">Получить бизнес-план</a></li>
+				<li><a href="#" class="go_to" data-go=".business_plan">Получить информацию</a></li>
 				<li><a href="#" class="go_to" data-go=".what_includes">Что входит</a></li>
 				<li><a href="#" class="go_to" data-go=".about">О нас</a></li>
 				<li><a href="#" class="go_to" data-go=".open">Этапы запуска</a></li>
